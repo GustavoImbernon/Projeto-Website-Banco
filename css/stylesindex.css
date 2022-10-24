@@ -1,0 +1,29 @@
+body{
+    font-family: 'Exo', sans-serif;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+
+}
+.navbar{
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+}
+#btn-login, .navbar-toggler{
+    background-color: #BC9BFA;
+}
+#btn-login:hover, .navbar-toggler:hover{
+    background-color: #8C73BA;transition: 1.5s;
+}
+.h2{
+    font-size: 5vw;
+}
+.h3{
+    font-size: 3vw;
+}
+.card{
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 65%); border-radius: 20%; font-size: 3vw;
+}
+#btncard1, #btncard2{
+    background-color: #9D9AFC;
+}
+#btncard1:hover, #btncard2:hover{
+    background-color: #6A93BD;transition: 1.5s;
+}
